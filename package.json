@@ -1,9 +1,5 @@
 {
   "name": "vue-multi-starter",
   "version": "0.1.0",
-  "private": true,
-  "workspaces": [
-    "vue2/*",
-    "vue3/*"
-  ]
+  "private": true
 }
