@@ -4,3 +4,4 @@
 
 1. `pnpm create vite official-2024-05 --template vue-ts`
 2. downgrade to vue2
+3. `npx @antfu/eslint-config@latest`
