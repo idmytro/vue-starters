@@ -1,10 +1,10 @@
-import Vue from 'vue';
-import App from './App.vue';
+import Vue from 'vue'
+import App from './App.vue'
 
-import './style.css';
+import './style.css'
 
 // eslint-disable-next-line no-new
 new Vue({
   el: '#app',
-  render: (h) => h(App),
-});
+  render: h => h(App),
+})
