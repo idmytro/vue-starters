@@ -1,4 +1,10 @@
-# Vue 2 + TypeScript + Vite
+# Vue 2 + Storybook 7
+
+## Usage
+
+```
+npx degit idmytro/vue-starters/2/storybook7 myproject
+```
 
 ## History
 
