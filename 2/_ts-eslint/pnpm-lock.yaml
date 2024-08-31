@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   vue:
-    specifier: ^2.7.14
+    specifier: ^2.7.16
     version: 2.7.16
 
 devDependencies:
