@@ -1,4 +1,8 @@
-# element-plus-vite-starter
+# element-plus-vite-starter + eslint
+
+```bash
+npx degit idmytro/vue-starters/3/element-plus-eslint myproject
+```
 
 > A starter kit for Element Plus with Vite
 
