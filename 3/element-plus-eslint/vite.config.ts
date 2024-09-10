@@ -1,11 +1,5 @@
-import path from 'path'
-import { defineConfig } from 'vite'
+import path from 'node:path'
 import vue from '@vitejs/plugin-vue'
-
-import Components from 'unplugin-vue-components/vite'
-import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
-
-import Unocss from 'unocss/vite'
 import {
   presetAttributify,
   presetIcons,
@@ -13,6 +7,12 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+
+import Unocss from 'unocss/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+
+import Components from 'unplugin-vue-components/vite'
+import { defineConfig } from 'vite'
 
 const pathSrc = path.resolve(__dirname, 'src')
 
@@ -59,7 +59,7 @@ export default defineConfig({
       transformers: [
         transformerDirectives(),
         transformerVariantGroup(),
-      ]
+      ],
     }),
   ],
 })
