@@ -1,5 +1,11 @@
 @import './base.css';
 
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-b1024px: 1024px;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
