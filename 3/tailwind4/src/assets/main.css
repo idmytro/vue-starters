@@ -1,6 +1,7 @@
+/* @import "tailwindcss"; */
 @import './base.css';
-
 @import "tailwindcss";
+
 
 @theme {
   --breakpoint-b1024px: 1024px;
