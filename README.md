@@ -1,5 +1,7 @@
-# vue-multi-strater
+# (Vite) Vue Starters
 
-```bash
-pnpm create vite vite-official-2024-05 --template vue-ts
-```
+## Vite templates
+https://vite.dev/guide/#scaffolding-your-first-vite-project
+
+## Vue template
+https://vuejs.org/guide/quick-start.html
