@@ -9,6 +9,16 @@
 ✔ Add ESLint for code quality? › Yes
 ✔ Add Prettier for code formatting? … No / Yes
 
+rm eslint-plugin-vue from package.json
+
+```bash
+pnpm dlx @antfu/eslint-config@latest
+```
+
+```bash
+pnpm add -D unocss
+```
+
 ------
 
 This template should help get you started developing with Vue 3 in Vite.
