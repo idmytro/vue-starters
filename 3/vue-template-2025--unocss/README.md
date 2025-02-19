@@ -1,12 +1,27 @@
 # vue-template-2025--unocss
 
+## How to use
+
+```bash
+npx degit idmytro/vue-starters/3/vue-template-2025--unocss .
+```
+
+## Log
+
 ✔ Add TypeScript? … No / Yes
+
 ✔ Add JSX Support? … No / Yes
+
 ✔ Add Vue Router for Single Page Application development? … No / Yes
+
 ✔ Add Pinia for state management? … No / Yes
+
 ✔ Add Vitest for Unit Testing? … No / Yes
+
 ✔ Add an End-to-End Testing Solution? › No
+
 ✔ Add ESLint for code quality? › Yes
+
 ✔ Add Prettier for code formatting? … No / Yes
 
 rm eslint-plugin-vue from package.json
