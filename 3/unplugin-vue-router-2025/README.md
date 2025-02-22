@@ -14,7 +14,7 @@ pnpm install
 pnpm run dev
 ```
 
-
+### Use as template
 ```bash
 npx degit idmytro/vue-starters/3/unplugin-vue-router-2025 myproject
 ```
