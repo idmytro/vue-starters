@@ -1,4 +1,4 @@
-# unplugin-vue-router Demo
+# unplugin-vue-router 
 
 This is the demo project for [unplugin-vue-router](https://github.com/posva/unplugin-vue-router). You can test it on [StackBlitz](https://stackblitz.com/github/posva/uvr-demo).
 
@@ -12,4 +12,9 @@ pnpm install
 
 ```sh
 pnpm run dev
+```
+
+
+```bash
+npx degit idmytro/vue-starters/3/unplugin-vue-router-2025 myproject
 ```
