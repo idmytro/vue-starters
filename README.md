@@ -11,7 +11,7 @@ pnpm create vue@latest
 ```
 
 
-## Usaga
+## Usage
 ```bash
 npx degit idmytro/vue-starters/3/vite-template-2024-05 myproject
 ```
