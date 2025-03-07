@@ -1,10 +1,12 @@
 import antfu from '@antfu/eslint-config'
+import unocss from '@unocss/eslint-config/flat'
 
 export default antfu(
   {
     vue: true,
-    unocss: true,
   },
+  /* https://unocss.dev/integrations/eslint */
+  unocss,
   {
     rules: {
       'vue/first-attribute-linebreak': [2, { singleline: 'beside' }],

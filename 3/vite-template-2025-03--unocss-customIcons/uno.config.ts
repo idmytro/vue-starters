@@ -1,3 +1,5 @@
+import { FileSystemIconLoader } from '@iconify/utils/lib/loader/node-loaders'
+
 import {
   defineConfig,
   presetIcons,
@@ -10,8 +12,12 @@ export default defineConfig({
       preflight: true,
     }),
     presetIcons({
-      scale: 1.2,
-      cdn: 'https://esm.sh/',
+      collections: {
+        custom: FileSystemIconLoader(
+          './src/assets/icons',
+          // svg => svg.replace(/#fff/, 'currentColor')
+        ),
+      },
     }),
   ],
 })

@@ -7,27 +7,28 @@ const msg = 'Vite + Vue + Unocss'
 </script>
 
 <template>
+  <!--  text-0 leading-0 -->
   <div class="flex items-center justify-center gap-48px">
     <a
       href="https://vite.dev"
       target="_blank"
-      class="filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#646cffaa]"
+      class="i-custom-vite block h-96px w-96px filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#646cffaa]"
     >
-      <span class="i-vscode-icons-file-type-vite block h-96px w-96px text-0">Vite</span>
+      <span class="invisible">Vite</span>
     </a>
     <a
       href="https://vuejs.org/"
       target="_blank"
-      class="filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#42b883aa]"
+      class="i-custom-vue h-96px w-96px filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#42b883aa]"
     >
-      <span class="i-vscode-icons-file-type-vue inline-block h-96px w-96px text-0">Vue</span>
+      <span class="invisible">Vue</span>
     </a>
     <a
       href="https://unocss.dev/"
       target="_blank"
-      class="filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#c76dd1aa]"
+      class="i-custom-unocss inline-block h-96px w-96px filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#c76dd1aa]"
     >
-      <span class="i-vscode-icons-file-type-unocss inline-block h-96px w-96px text-0">Unocss</span>
+      <span class="invisible">Unocss</span>
     </a>
   </div>
 
