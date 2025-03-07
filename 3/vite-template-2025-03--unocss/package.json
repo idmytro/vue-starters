@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.6.0",
+    "@iconify-json/vscode-icons": "^1.2.16",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.21.0",

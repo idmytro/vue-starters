@@ -3,16 +3,31 @@ import { ref } from 'vue'
 
 const count = ref(0)
 
-const msg = 'Vite + Vue'
+const msg = 'Vite + Vue + Unocss'
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo">
+  <div class="flex items-center justify-center gap-48px">
+    <a
+      href="https://vite.dev"
+      target="_blank"
+      class="filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#646cffaa]"
+    >
+      <span class="i-vscode-icons-file-type-vite block h-96px w-96px text-0">Vite</span>
     </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="../assets/vue.svg" class="logo vue" alt="Vue logo">
+    <a
+      href="https://vuejs.org/"
+      target="_blank"
+      class="filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#42b883aa]"
+    >
+      <span class="i-vscode-icons-file-type-vue inline-block h-96px w-96px text-0">Vue</span>
+    </a>
+    <a
+      href="https://unocss.dev/"
+      target="_blank"
+      class="filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#c76dd1aa]"
+    >
+      <span class="i-vscode-icons-file-type-unocss inline-block h-96px w-96px text-0">Unocss</span>
     </a>
   </div>
 
@@ -21,7 +36,10 @@ const msg = 'Vite + Vue'
   </h1>
 
   <div class="card">
-    <button type="button" @click="count++">
+    <button
+      type="button"
+      @click="count++"
+    >
       count is {{ count }}
     </button>
     <p>
@@ -32,7 +50,10 @@ const msg = 'Vite + Vue'
 
   <p>
     Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite starter
+    <a
+      href="https://vuejs.org/guide/quick-start.html#local"
+      target="_blank"
+    >create-vue</a>, the official Vue + Vite starter
   </p>
   <p>
     Learn more about IDE Support for Vue in the
@@ -41,28 +62,7 @@ const msg = 'Vite + Vue'
       target="_blank"
     >Vue Docs Scaling up Guide</a>.
   </p>
-  <p class="read-the-docs">
-    Click on the Vite and Vue logos to learn more
+  <p class="text-[#888]">
+    Click on the Vite, Vue and Unocss logos to learn more
   </p>
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
-
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
