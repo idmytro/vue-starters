@@ -12,6 +12,7 @@ const msg = 'Vite + Vue + Unocss'
     <a
       href="https://vite.dev"
       target="_blank"
+      rel="noopener noreferrer"
       class="i-custom-vite block h-96px w-96px filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#646cffaa]"
     >
       <span class="invisible">Vite</span>
@@ -19,6 +20,7 @@ const msg = 'Vite + Vue + Unocss'
     <a
       href="https://vuejs.org/"
       target="_blank"
+      rel="noopener noreferrer"
       class="i-custom-vue h-96px w-96px filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#42b883aa]"
     >
       <span class="invisible">Vue</span>
@@ -26,6 +28,7 @@ const msg = 'Vite + Vue + Unocss'
     <a
       href="https://unocss.dev/"
       target="_blank"
+      rel="noopener noreferrer"
       class="i-custom-unocss inline-block h-96px w-96px filter transition-filter duration-300 will-change-filter hover:drop-shadow-[0_0_2em_#c76dd1aa]"
     >
       <span class="invisible">Unocss</span>
