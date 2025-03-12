@@ -5,7 +5,8 @@ module.exports = {
           .tap((args) => {
             return [{
               ...args[0],
-              title: '@product_name@',
+              title: 'Vue Cli Project',
+              lang: 'en',
             }]
           })
     }
