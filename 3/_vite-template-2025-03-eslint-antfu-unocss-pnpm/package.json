@@ -1,7 +1,7 @@
 {
-  "name": "vite-vue-typescript-starter",
+  "name": "vite-template-2025-03-eslint-antfu-unocss-pnpm",
   "type": "module",
-  "version": "0.0.0",
+  "version": "2025.03.28",
   "private": true,
   "scripts": {
     "dev": "vite",
